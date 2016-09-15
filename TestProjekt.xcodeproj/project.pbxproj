@@ -16,6 +16,7 @@
 		D088BF7A1D7962CE001AF03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D088BF781D7962CE001AF03A /* Main.storyboard */; };
 		D088BF851D7962CF001AF03A /* TestProjektTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D088BF841D7962CF001AF03A /* TestProjektTests.m */; };
 		D088BF901D7962CF001AF03A /* TestProjektUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D088BF8F1D7962CF001AF03A /* TestProjektUITests.m */; };
+		D088BFA81D7974E8001AF03A /* SecondWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D088BFA71D7974E8001AF03A /* SecondWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D088BF8B1D7962CF001AF03A /* TestProjektUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjektUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D088BF8F1D7962CF001AF03A /* TestProjektUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjektUITests.m; sourceTree = "<group>"; };
 		D088BF911D7962CF001AF03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D088BFA61D7974E8001AF03A /* SecondWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondWindow.h; sourceTree = "<group>"; };
+		D088BFA71D7974E8001AF03A /* SecondWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				D088BF7B1D7962CE001AF03A /* Info.plist */,
 				D088BF731D7962CE001AF03A /* Document.xcdatamodeld */,
 				D088BF6A1D7962CE001AF03A /* Supporting Files */,
+				D088BFA61D7974E8001AF03A /* SecondWindow.h */,
+				D088BFA71D7974E8001AF03A /* SecondWindow.m */,
 			);
 			path = TestProjekt;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				D088BF6C1D7962CE001AF03A /* main.m in Sources */,
 				D088BF751D7962CE001AF03A /* Document.xcdatamodeld in Sources */,
 				D088BF691D7962CE001AF03A /* AppDelegate.m in Sources */,
+				D088BFA81D7974E8001AF03A /* SecondWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +505,7 @@
 				D088BF961D7962CF001AF03A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D088BF971D7962CF001AF03A /* Build configuration list for PBXNativeTarget "TestProjektTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				D088BF991D7962CF001AF03A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D088BF9A1D7962CF001AF03A /* Build configuration list for PBXNativeTarget "TestProjektUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				D088BF9C1D7962CF001AF03A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
