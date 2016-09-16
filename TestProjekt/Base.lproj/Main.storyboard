@@ -817,7 +817,7 @@
                 </viewController>
                 <customObject id="xQG-cO-MmS" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="720" y="706"/>
+            <point key="canvasLocation" x="720" y="706" />
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
